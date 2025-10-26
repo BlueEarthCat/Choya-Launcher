@@ -2,49 +2,6 @@
  * Script for landing.ejs
  */
 // Requirements
-import fs from 'fs'
-import https from 'https'
-import path from 'path'
-
-// ✅ options.txt 다운로드 및 리소스팩 적용
-async function applyResourcePackOptions() {
-    const optionsUrl = 'https://blueearthcat.github.io/Choya-Launcher/build/options.txt'
-    const mcDir = path.join(process.env.APPDATA, '.minecraft')
-    const packName = 'Server-ResourcePack.zip'
-    const desiredLine = `resourcePacks:["vanilla","fabric","file/${packName}"]`
-    const optionsPath = path.join(mcDir, 'options.txt')
-
-    try {
-        // 폴더가 없으면 생성
-        if (!fs.existsSync(mcDir)) fs.mkdirSync(mcDir, { recursive: true })
-
-        // options.txt 없으면 다운로드
-        if (!fs.existsSync(optionsPath)) {
-            console.log('[Launcher] options.txt가 존재하지 않아 서버에서 다운로드합니다.')
-            await new Promise((resolve, reject) => {
-                const file = fs.createWriteStream(optionsPath)
-                https.get(optionsUrl, res => {
-                    res.pipe(file)
-                    file.on('finish', () => file.close(resolve))
-                }).on('error', (err) => reject(err))
-            })
-            console.log('[Launcher] options.txt 다운로드 완료')
-        }
-
-        // options.txt 읽기 및 resourcePacks 라인 적용
-        let content = fs.readFileSync(optionsPath, 'utf8')
-        if (content.includes('resourcePacks:')) {
-            content = content.replace(/resourcePacks:\[.*?\]/, desiredLine)
-        } else {
-            content += '\n' + desiredLine
-        }
-        fs.writeFileSync(optionsPath, content, 'utf8')
-        console.log('[Launcher] options.txt에 리소스팩 적용 완료')
-    } catch (err) {
-        console.error('[Launcher] options.txt 처리 중 오류 발생:', err)
-    }
-}
-
 
 const { URL }                 = require('url')
 const {
@@ -160,7 +117,6 @@ document.getElementById('launch_button').addEventListener('click', async e => {
             if(details != null){
                 loggerLanding.info('Jvm Details', details)
 
-                await preLaunchResourcePack()
 
                 await dlAsync()
 
