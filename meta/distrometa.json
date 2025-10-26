@@ -1,5 +1,5 @@
 {
-  "$schema": "file:///C:/Users/bluef/OneDrive/Desktop/BlueEarthCat%20Minecraft%20Launcher/Nebula/build/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///C:/Users/bluef/OneDrive/Desktop/BlueEarthCat%20Minecraft%20Launcher/Nebula/build-choya/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
