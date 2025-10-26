@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "LastSaviors Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "https://github.com/blueearthcat/Choya-Launcher"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/GGr6xw2Fxr"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/blueearthcat/Choya-Launcher"
+supportLink = "https://github.com/blueearthcat/Choya-Launcher/issues"
+
+[ejs.welcome]
+welcomeHeader = "라스트 세이비어스에 오신걸 환영합니다."
+welcomeDescription = "RPG, 그 이상의 감동"
+welcomeDescCTA = "마지막 세계를 구원할 자는, 당신입니다."

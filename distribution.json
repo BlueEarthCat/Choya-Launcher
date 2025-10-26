@@ -1,0 +1,399 @@
+{
+  "version": "1.0.2",
+  "rss": "https://blueearthcat.github.io/Choya-Launcher_NEWS/news.xml",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "LastSaviors-1.21.4",
+      "name": "LastSaviors (Minecraft 1.21.4)",
+      "description": "LastSaviors Running Minecraft 1.21.4",
+      "icon": "https://blueearthcat.github.io/Choya-Launcher/build/icon.png",
+      "version": "1.0.2",
+      "address": "mcrpg.kr",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "LastSaivors",
+        "largeImageText": "라스트 세이비어스 서버",
+        "largeImageKey": "server-lastsaviors"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1917330,
+            "MD5": "54e368d0ccdcb9109a63f048e26526b0",
+            "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/net/fabricmc/fabric-loader/0.17.3/fabric-loader-0.17.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.17.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "e680de1216735bb020166a9d56b6db08",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/versions/1.21.4-fabric-0.17.3/1.21.4-fabric-0.17.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://blueearthcat.github.io/Choya-Launcher/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.verotek:analog_movement:0.0.1@jar",
+          "name": "AnalogMovement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5685,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/analog_movement-0.0.1+1.21.4.jar",
+            "MD5": "437262ffa924b6aaf773e9fa9987d32c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:badoptimizations:2.2.2@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 109653,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/BadOptimizations-2.2.2-1.21.2-21.5.jar",
+            "MD5": "1ae02420e82532c2417d550edefbe79b"
+          }
+        },
+        {
+          "id": "eu.midnightdust:blur:5.2.0@jar",
+          "name": "Blur+",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 99177,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/blur-fabric-5.2.0+1.21.4.jar",
+            "MD5": "068e1d653dab1ff411fb801d107e20c6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1152857,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/cloth-config-17.0.144-fabric.jar",
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.11.3+1.21.4@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 207442,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/enhancedblockentities-0.11.3+1.21.4.jar",
+            "MD5": "b55aa40f603248f4cb476ee3cd4f8c4d"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.4@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71242,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/entityculling-fabric-1.7.4-mc1.21.4.jar",
+            "MD5": "814c40da37883f4e5ea565c49507429e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.2+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2147553,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/fabric-api-0.119.2+1.21.4.jar",
+            "MD5": "a543174245cd21248bfee7a5a826d718"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.2+kotlin.2.1.20@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7159151,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.2+kotlin.2.1.20.jar",
+            "MD5": "a5c2953271eede6b0dded7a2bc3f09fe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.1.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 107026,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/ferritecore-7.1.1-fabric.jar",
+            "MD5": "cddea62080b823c0c55f72408a0c3ffb"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.4.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 641130,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/ForgeConfigAPIPort-v21.4.1-1.21.4-Fabric.jar",
+            "MD5": "4fbb75a4aa1d649263b1e14a8a11c5ea"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.8@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 161045,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/krypton-0.2.8.jar",
+            "MD5": "9ba3d734dac0e59deb4721f2f23c65ad"
+          }
+        },
+        {
+          "id": "ru.vidtu.ksyxis.loaders:ksyxis:1.3.3@jar",
+          "name": "Ksyxis",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 28484,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/Ksyxis-1.3.3.jar",
+            "MD5": "66f7a6f5dd5a8f090adfd87472f9509d"
+          }
+        },
+        {
+          "id": "net.verotek:libanalog:0.0.1@jar",
+          "name": "LibAnalog",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2991900,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/libanalog-0.0.1+1.21.4.jar",
+            "MD5": "88b843f4e1dd5d67e6237eac6390c8ca"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.3+mc1.21.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 436498,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/modernfix-fabric-5.20.3+mc1.21.4.jar",
+            "MD5": "1bee2326edcced182b86154e44810971"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:13.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050777,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/modmenu-13.0.3.jar",
+            "MD5": "e8884b37fe775f30a0121c4fbdfb32ac"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.exopandora:shouldersurfing:4.11.0@jar",
+          "name": "Shoulder Surfing Reloaded",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 214106,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionaloff/ShoulderSurfing-Fabric-1.21.4-4.11.0.jar",
+            "MD5": "ed7f6f265356209c6d3de4f43d295091"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "org.dimdev:vanillafix:1.2.4-beta@jar",
+          "name": "VanillaIcecreamFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80602,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/VanillaIcecreamFix-1.2.4-beta.jar",
+            "MD5": "25b63cff78c17313e412d49ebded3e62"
+          }
+        },
+        {
+          "id": "com.velum:videotape:1.0.0@jar",
+          "name": "Video Tape",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4774,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/videotape-1.5.0.jar",
+            "MD5": "08e3aab75da42e6010cc75cfe8c47084"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.6@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1729238,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/Xaeros_Minimap_25.2.6_Fabric_1.21.4.jar",
+            "MD5": "c6a8a999196caa3fd73c60d642d340ab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.4@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 950072,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/XaerosWorldMap_1.39.4_Fabric_1.21.4.jar",
+            "MD5": "2f0cd1f8a41de3a0c630e3081cb3dac1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.21.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1116713,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/required/yet_another_config_lib_v3-3.6.6+1.21.4-fabric.jar",
+            "MD5": "32d26d66170df646f8d2168c15bca4f8"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.3@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807977,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/LastSaviors-1.21.4/fabricmods/optionalon/Zoomify-2.14.2+1.21.3.jar",
+            "MD5": "3b501d83e685e5cc6c7a2e339145434a"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}
