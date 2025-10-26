@@ -1,7 +1,7 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "LastSaviors Launcher"
+title = "Choya Launcher"
 
 [ejs.landing]
 mediaGitHubURL = "https://github.com/blueearthcat/Choya-Launcher"
@@ -15,6 +15,6 @@ sourceGithubLink = "https://github.com/blueearthcat/Choya-Launcher"
 supportLink = "https://github.com/blueearthcat/Choya-Launcher/issues"
 
 [ejs.welcome]
-welcomeHeader = "라스트 세이비어스에 오신걸 환영합니다."
-welcomeDescription = "RPG, 그 이상의 감동"
-welcomeDescCTA = "마지막 세계를 구원할 자는, 당신입니다."
+welcomeHeader = "초야 서버에 오신걸 환영합니다."
+welcomeDescription = "스트리머와 시청자가 함께하는 서버"
+welcomeDescCTA = "지금 바로 접속하세요!"

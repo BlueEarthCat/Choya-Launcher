@@ -1,5 +1,5 @@
 appId: lslauncher
-productName: LastSaviors Launcher
+productName: Choya Launcher
 artifactName: ${productName}-setup-${version}.${ext}
 copyright: Copyright © 2018-2025 BlueEarthCat
 asar: true
@@ -35,6 +35,6 @@ linux:
   target: AppImage
   maintainer: BlueEarthCat
   vendor: BlueEarthCat
-  synopsis: For Minecraft 1.21.4 Server Last Saviors
-  description: For Minecraft 1.21.4 Server Last Saviors
+  synopsis: For Minecraft 1.20.6 Server Last Saviors
+  description: For Minecraft 1.20.6 Server Last Saviors
   category: Game
