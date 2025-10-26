@@ -21,7 +21,7 @@
         "largeImageKey": "choya-server"
       },
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.17.3",
@@ -196,6 +196,28 @@
             "size": 6570773,
             "url": "https://blueearthcat.github.io/Choya-Launcher/servers/Choya_Server-1.20.6/fabricmods/required/voicechat-fabric-1.20.6-2.5.22.jar",
             "MD5": "34419bc75b095f8120d2ec59af3a8365"
+          }
+        },
+        {
+          "id": "Server-ResourcePack.zip",
+          "name": "Server-ResourcePack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 12862165,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/Choya_Server-1.20.6/files/resourcepacks/Server-ResourcePack.zip",
+            "MD5": "08604b635156f576eaffd21d24908b08",
+            "path": "resourcepacks/Server-ResourcePack.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 27612,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/Choya_Server-1.20.6/files/servers.dat",
+            "MD5": "51b0acc83a2ec7c429048423c4bfd2f2",
+            "path": "servers.dat"
           }
         }
       ]
