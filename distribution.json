@@ -21,7 +21,7 @@
         "largeImageKey": "choya-server"
       },
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.17.3",
@@ -133,6 +133,16 @@
             "size": 1143824,
             "url": "https://blueearthcat.github.io/Choya-Launcher/servers/Choya_Server-1.20.6/fabricmods/required/CreativeCore_FABRIC_v2.11.33_mc1.20.6.jar",
             "MD5": "dce2043447ea7cf685d7fcb5a437554f"
+          }
+        },
+        {
+          "id": "com.darksoldier1404.dpm:dpm-autoresourcepack:1.0.0@jar",
+          "name": "DPM-AutoResourcePack",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13149,
+            "url": "https://blueearthcat.github.io/Choya-Launcher/servers/Choya_Server-1.20.6/fabricmods/required/dpm-autoresourcepack-1.0.0.jar",
+            "MD5": "a83d3deee29b3dc71d6ba5a6a8673c2c"
           }
         },
         {
