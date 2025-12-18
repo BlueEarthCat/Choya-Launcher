@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -533,16 +533,6 @@
           }
         },
         {
-          "id": "com.theplumteam:blockpops:1.1.0@jar",
-          "name": "BlockPops",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5673410,
-            "url": "https://choya.shop/nebula/servers/Choya_Server-1.20.1/forgemods/required/Block%20Pops%20-%20Forge%20-%201.1.0.jar",
-            "MD5": "c5d446f810f31590312fa66f5795af24"
-          }
-        },
-        {
           "id": "io.ejekta:bountiful:6.0.4+1.20.1@jar",
           "name": "Bountiful",
           "type": "ForgeMod",
@@ -1050,16 +1040,6 @@
             "size": 188673,
             "url": "https://choya.shop/nebula/servers/Choya_Server-1.20.1/forgemods/required/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
             "MD5": "da8492dc74813d847ba128c23253c376"
-          }
-        },
-        {
-          "id": "net.jacobwasbeast:picaxe:1.0.9@jar",
-          "name": "PicAxe",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 214873,
-            "url": "https://choya.shop/nebula/servers/Choya_Server-1.20.1/forgemods/required/picaxe-1.20.1-forge-1.0.9.jar",
-            "MD5": "298fa28f2e0d0f63049a1581d302b7d5"
           }
         },
         {
