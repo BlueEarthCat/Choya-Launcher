@@ -863,16 +863,6 @@
           }
         },
         {
-          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.19@jar",
-          "name": "Inventory Profiles Next",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1456863,
-            "url": "https://choya.shop/nebula/servers/Choya_Server-1.20.1/forgemods/required/InventoryProfilesNext-forge-1.20-1.10.19.jar",
-            "MD5": "eafdba0041b0811e9e7afda28a5927fe"
-          }
-        },
-        {
           "id": "net.mattseq:item_holograms:4.0.0@jar",
           "name": "Item Holograms",
           "type": "ForgeMod",
